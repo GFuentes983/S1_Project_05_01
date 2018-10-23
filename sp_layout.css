@@ -6,7 +6,7 @@
    Case Problem 1
    
    Layout styles for Slate and Pencil Tutoring
-   Author: 
+   Author: Gabriel Fuentes
    Date:   
    
    Filename: sp_layout.css
@@ -14,18 +14,34 @@
 */
 
 /* Window and Body Styles */
+html {
+    height: 100%;
+}
 
-
-
+body {
+    width: 95%;
+    min-width: 640px;
+    max-width: 960px;
+    margin: auto;
+    height: 100%;
+}
 
 /* Row Styles */
-
+.row::after {
+    clear: both;
+    content: "";
+    display: table;
+}
 
 
 
 
 /* Page Header Styles */
-
+body header {
+    display: block;
+    width: 70%;
+    float: left;
+}
 
 
 
